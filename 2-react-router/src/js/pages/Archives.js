@@ -5,7 +5,7 @@ import Article from "../components/Article";
 export default class Archives extends React.Component {
   render() {
     const { query } = this.props.location;
-//    const { params } = this.props;
+    const { params } = this.props;
     const { article } = this.props.params;
     const { date, filter } = query;
 
